@@ -1,0 +1,2 @@
+class Nlurequest:
+    pass

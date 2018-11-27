@@ -1,0 +1,2212 @@
+{
+  "entities": {
+    "instrument": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "apple"
+        },
+        {
+          "synonyms": [],
+          "value": "ibm"
+        },
+        {
+          "synonyms": [],
+          "value": "tata consultancy"
+        },
+        {
+          "synonyms": [],
+          "value": "reliance"
+        },
+        {
+          "synonyms": [
+            "infosys"
+          ],
+          "value": "infy"
+        },
+        {
+          "synonyms": [],
+          "value": "tesla"
+        },
+        {
+          "synonyms": [],
+          "value": "google"
+        },
+        {
+          "synonyms": [],
+          "value": "intellect"
+        },
+        {
+          "synonyms": [
+            " iseetee",
+            "isete",
+            "eyeseet",
+            "eyecetee",
+            " i c t"
+          ],
+          "value": "ICT"
+        },
+        {
+          "synonyms": [
+            "asee",
+            "ak",
+            "ase",
+            "hasi",
+            "asi",
+            " a c"
+          ],
+          "value": "AC"
+        },
+        {
+          "synonyms": [
+            "video",
+            "beedeeo",
+            "bedio",
+            "vidio",
+            "b d o"
+          ],
+          "value": "BDO"
+        },
+        {
+          "synonyms": [
+            "yesyum",
+            "yesm",
+            "syum",
+            "yesmm s m"
+          ],
+          "value": "SM"
+        },
+        {
+          "synonyms": [
+            "ageeeye",
+            "agei",
+            "ageei",
+            "hageeye",
+            "hagei",
+            " a g i",
+            " igi ",
+            " i g i"
+          ],
+          "value": "AGI"
+        },
+        {
+          "synonyms": [
+            " glow",
+            "glove",
+            "gloww",
+            "geeyellow",
+            "geello",
+            "gellow",
+            " g l o"
+          ],
+          "value": "GLO"
+        },
+        {
+          "synonyms": [
+            "aryelsee",
+            "ryelsee",
+            "rlsee",
+            "arlc",
+            "aryelsi",
+            "rlsi",
+            " r l c"
+          ],
+          "value": "RLC"
+        },
+        {
+          "synonyms": [
+            "fgin",
+            "yefgen",
+            "yefgin fgn",
+            " f gen",
+            " f g e n",
+            "fz ",
+            " f z"
+          ],
+          "value": "FGEN"
+        },
+        {
+          "synonyms": [
+            "tell",
+            "tale",
+            " tel ",
+            " tal",
+            " t e l"
+          ],
+          "value": "TEL"
+        },
+        {
+          "synonyms": [
+            "kasko",
+            "kasco",
+            "cosko",
+            "coosco",
+            "kaasco"
+          ],
+          "value": "COSCO"
+        }
+      ],
+      "parser_threshold": 1.0,
+      "use_synonyms": true
+    },
+    "name": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "Stanley"
+        },
+        {
+          "synonyms": [],
+          "value": "nilima"
+        },
+        {
+          "synonyms": [],
+          "value": "Suresh"
+        }
+      ],
+      "parser_threshold": 1.0,
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "accountsummary": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Tell my margin account summary"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find account summary"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Get me margin account statement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Bring me margin statement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Display a/c statement\""
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "print a/c details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show account details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to know my margin account summary"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me margin a/c details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "accounts summary"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "account summary"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is my accounts summary"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "accounts summary details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "account details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is my accounts summary"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is my accounts summary details"
+            }
+          ]
+        }
+      ]
+    },
+    "askdetails": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "COSCO"
+            },
+            {
+              "text": " offer details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "COSCO"
+            },
+            {
+              "text": " offer details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me offer details  for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "FGEN"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find offer details  for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ICT"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the ask info for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Look up offer details for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "NTPC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "CIPLA"
+            },
+            {
+              "text": " ask details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me offer information for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hask details for instrument:instrument](AGI)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "ask details of instrument:instrument](SM)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hask details of instrument:instrument](YESBANK)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the hask details of instrument:instrument](AC)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "whats the ask for instrument:instrument](GLO)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "whats the hask for instrument:instrument](TEL)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me ask for instrument:instrument](AC)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me the ask details of instrument:instrument](AC)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            },
+            {
+              "text": " ask details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            },
+            {
+              "text": " ask"
+            }
+          ]
+        }
+      ]
+    },
+    "biddetails": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "COSCO"
+            },
+            {
+              "text": " bid details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "COSCO"
+            },
+            {
+              "text": " bid details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me bit details  for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "FGEN"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find bid details  for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ICT"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the bid info for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Look up bid details for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "NTPC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "CIPLA"
+            },
+            {
+              "text": " bid details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me bit information for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "bit details for instrument:instrument](AGI)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "bid details of instrument:instrument](SM)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "beed details of instrument:instrument](YESBANK)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the beed details of instrument:instrument](AC)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "whats the bid for instrument:instrument](GLO)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "whats the bit for instrument:instrument](TEL)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me bid for instrument:instrument](AC)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me the bid details of instrument:instrument](AC)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            },
+            {
+              "text": " bid details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "SM"
+            },
+            {
+              "text": " bid"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            },
+            {
+              "text": " bit details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "TEL"
+            },
+            {
+              "text": " bit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "bit details "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "AC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "bit of"
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        }
+      ]
+    },
+    "buyingpower": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Give me my buying power statement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell my buying power"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "display purchasing power"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "query buying power"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Determine my buying power"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "print purchasing power"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "look up buying power"
+            }
+          ]
+        }
+      ]
+    },
+    "bye": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "bye"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Good bye"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Thank you"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Thanks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "goodbye"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "gooby"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "goobye"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "gudbi"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "goodbie"
+            }
+          ]
+        }
+      ]
+    },
+    "cash": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "cash statement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "cash"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "get my cash statement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "fetch my cash statement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "give my cash details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how much cash do i have"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "show my cash statement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is my cash statement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "cash details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you tell me my cash statement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can u tell my cash details"
+            }
+          ]
+        }
+      ]
+    },
+    "gainers": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Tell Top gainers Today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find Top Gainers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Get me Winning stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Look up today's biggest winners"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Fetch Most advancing stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Bring me today's top risers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Display top gainers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Print biggest winners"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show top risers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query most up"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to know top advancing stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What are the biggest gainers today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Search Top gainers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Determine Most Up stocks today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "View top risers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me the top winning stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "top gainers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "top 5 gainers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "gainers"
+            }
+          ]
+        }
+      ]
+    },
+    "hi": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Hi"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hello"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Hey"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "howdy"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hie"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hola"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "greetings"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hie whatsup"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hie capital alpha"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hi bot"
+            }
+          ]
+        }
+      ]
+    },
+    "highprice": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Today's high "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "TEL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Intraday high "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "SM"
+            },
+            {
+              "text": " high price"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me intraday high for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "AGI"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query high for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "COSCO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find high price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "UPL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me today's high for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "FGEN"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the intraday high for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "GLO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show high price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ICT"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "high price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ICT"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "whats the high price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "COSCO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "high of "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "TEL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "high value of "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "FGEN"
+            }
+          ]
+        }
+      ]
+    },
+    "login": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "login"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please login"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "do login"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please login"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can you login"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want to login"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "login for me"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "login my account"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "log into my account"
+            }
+          ]
+        }
+      ]
+    },
+    "losers": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Tell Top losers Today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find Top losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Get me losing stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Look up today's biggest losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Fetch Most declining stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Bring me today's top losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Display top losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Print biggest losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show top losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query most down stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to know top declining stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What are the biggest losers today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Search Top losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Determine Most down stocks today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "View top losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me the top declining stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "top losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "top five losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "five losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "show me losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "top loser"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "loser"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "losing stock"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "show me losing stocks"
+            }
+          ]
+        }
+      ]
+    },
+    "lowprice": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Today's low "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "TEL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Intraday low "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "SM"
+            },
+            {
+              "text": " low price"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me intraday low for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "AGI"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query low for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "COSCO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find low price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "UPL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me today's low for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "FGEN"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the intraday low for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "GLO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show low price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ICT"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "low price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ICT"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "whats the low price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "COSCO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "low of "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "TEL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "low value of "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "FGEN"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "lowprice for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "FGEN"
+            }
+          ]
+        }
+      ]
+    },
+    "name": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "my name is "
+            },
+            {
+              "entity": "name",
+              "slot_name": "name",
+              "text": "Stanley"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "name is "
+            },
+            {
+              "entity": "name",
+              "slot_name": "name",
+              "text": "Stanley"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "name",
+              "slot_name": "name",
+              "text": "Stanley"
+            }
+          ]
+        }
+      ]
+    },
+    "quote": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Stock Quote  "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ACT"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Market Quote "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Quoted Price "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "FGEN"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me the market quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "SM"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Display "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ICT"
+            },
+            {
+              "text": " quote"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me a quoted price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Fetch me a quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "AC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Bring me a stock quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "GLO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "AGI"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Get quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "TEL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "AGI"
+            },
+            {
+              "text": " quote"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Look up stock quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "RLC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to know quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "GLO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Fetch stock quoted for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "TEL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "TEL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "stock quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ACT"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "quote of "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "AGI"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "SM"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me quote of "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "SM"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me quote details for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell me quote details of "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "TEL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ACT"
+            },
+            {
+              "text": " quote"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "(SM"
+            },
+            {
+              "text": ") quote details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "market code for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "court for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "stock code "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "stock court "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "TEL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "provide the market code for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "provide court for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "AGI"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "code details "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "code detail "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "stock code detail "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "stock code details  "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "stock court detail "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "stock court details  "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "stock quote detail "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "stock quote details  "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BDO"
+            }
+          ]
+        }
+      ]
+    },
+    "yourname": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What is your name"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "your name"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me you name"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

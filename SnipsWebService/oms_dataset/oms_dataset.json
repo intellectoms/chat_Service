@@ -1,0 +1,1165 @@
+{
+  "entities": {
+    "instrument": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "apple"
+        },
+        {
+          "synonyms": [],
+          "value": "ibm"
+        },
+        {
+          "synonyms": [],
+          "value": "tata consultancy"
+        },
+        {
+          "synonyms": [],
+          "value": "reliance"
+        },
+        {
+          "synonyms": [
+            "infosys"
+          ],
+          "value": "infy"
+        },
+        {
+          "synonyms": [],
+          "value": "bdo"
+        },
+        {
+          "synonyms": [],
+          "value": "tesla"
+        },
+        {
+          "synonyms": [],
+          "value": "google"
+        },
+        {
+          "synonyms": [],
+          "value": "intellect"
+        }
+      ],
+      "parser_threshold": 1.0,
+      "use_synonyms": true
+    },
+    "name": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "Stanley"
+        },
+        {
+          "synonyms": [],
+          "value": "nilima"
+        },
+        {
+          "synonyms": [],
+          "value": "Suresh"
+        }
+      ],
+      "parser_threshold": 1.0,
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "accountsummary": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Tell my margin account summary"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find account summary"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Get me margin account statement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Bring me margin statement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Display a/c statement\""
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "print a/c details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show account details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to know my margin account summary"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me margin a/c details"
+            }
+          ]
+        }
+      ]
+    },
+    "askdetails": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "IOC"
+            },
+            {
+              "text": " offer details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "IOC"
+            },
+            {
+              "text": " offer details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me offer details  for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "WIPRO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find offer details  for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "MTNL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the ask info for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "IOC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Look up offer details for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "NTPC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "CIPLA"
+            },
+            {
+              "text": " ask details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me offer information for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "YESBANK"
+            }
+          ]
+        }
+      ]
+    },
+    "biddetails": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "WIPRO"
+            },
+            {
+              "text": " bid details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me bid information for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "WIPRO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find bid details for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "MTNL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the bid information for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "IOC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "CIPLA"
+            },
+            {
+              "text": " bid details"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Look up bid detail for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "NTPC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me a bid info for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ADANIENT"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Display "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "RELIANCE"
+            },
+            {
+              "text": " bid detail"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "bit details for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "RELIANCE"
+            }
+          ]
+        }
+      ]
+    },
+    "buyingpower": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Give me my buying power statement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tell my buying power"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "display purchasing power"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "query buying power"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Determine my buying power"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "print purchasing power"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "look up buying power"
+            }
+          ]
+        }
+      ]
+    },
+    "bye": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "bye"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Good bye"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Thank you"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Thanks"
+            }
+          ]
+        }
+      ]
+    },
+    "gainers": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Tell Top gainers Today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find Top Gainers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Get me Winning stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Look up today's biggest winners"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Fetch Most advancing stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Bring me today's top risers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Display top gainers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Print biggest winners"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show top risers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query most up"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to know top advancing stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What are the biggest gainers today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Search Top gainers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Determine Most Up stocks today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "View top risers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me the top winning stocks"
+            }
+          ]
+        }
+      ]
+    },
+    "hi": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Hi"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hello"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Hey"
+            }
+          ]
+        }
+      ]
+    },
+    "highprice": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Today's high "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "INFY"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Intraday high "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "WIPRO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "TCS"
+            },
+            {
+              "text": " high price"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me intraday high for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "SBIN"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query high for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ITC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find high price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "UPL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me today's high for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "GAIL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the intraday high for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ZEEL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show high price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "KOTAK"
+            }
+          ]
+        }
+      ]
+    },
+    "losers": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Tell Top losers Today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find Top losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Get me losing stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Look up today's biggest losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Fetch Most declining stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Bring me today's top losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Display top losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Print biggest losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show top losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query most down stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to know top declining stocks"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What are the biggest losers today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Search Top losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Determine Most down stocks today"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "View top losers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me the top declining stocks"
+            }
+          ]
+        }
+      ]
+    },
+    "lowprice": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Today's low "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "INFY"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Intraday low "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "WIPRO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "TCS"
+            },
+            {
+              "text": " low price"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me intraday low for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "SBIN"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query low for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ITC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find low price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "UPL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me today's low for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "GAIL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the intraday low for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ZEEL"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show low price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "KOTAK"
+            }
+          ]
+        }
+      ]
+    },
+    "name": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "my name is "
+            },
+            {
+              "entity": "name",
+              "slot_name": "name",
+              "text": "Stanley"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "name is "
+            },
+            {
+              "entity": "name",
+              "slot_name": "name",
+              "text": "Stanley"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "name",
+              "slot_name": "name",
+              "text": "Stanley"
+            }
+          ]
+        }
+      ]
+    },
+    "quote": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Stock Quote  "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "INFY"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Market Quote "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "apple"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Quoted Price "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "SBIN"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me the market quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "LUPIN"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Display "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ONGC"
+            },
+            {
+              "text": " quote"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me a quoted price for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ADANIENT"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Fetch me a quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "CIPLA"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Bring me a stock quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "KOTAK"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "IOC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Get quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "BAJAJ-AUTO"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Query "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "CIPLA"
+            },
+            {
+              "text": " quote"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Look up stock quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "NTPC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to know quote for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "LT"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Fetch stock quoted for "
+            },
+            {
+              "entity": "instrument",
+              "slot_name": "instrument",
+              "text": "ADANIENT"
+            }
+          ]
+        }
+      ]
+    },
+    "yourname": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What is your name"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "your name"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me you name"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

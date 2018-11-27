@@ -1,0 +1,13 @@
+Today's high [instrument:instrument](TEL)
+Intraday high [instrument:instrument](BDO)
+[instrument:instrument](SM) high price
+Give me intraday high for [instrument:instrument](AGI)
+Query high for [instrument:instrument](COSCO)
+Find high price for [instrument:instrument](UPL)
+Tell me today's high for [instrument:instrument](FGEN)
+What is the intraday high for [instrument:instrument](GLO)
+Show high price for [instrument:instrument](ICT)
+high price for [instrument:instrument](ICT)
+whats the high price for [instrument:instrument](COSCO)
+high of [instrument:instrument](TEL)
+high value of [instrument:instrument](FGEN)
